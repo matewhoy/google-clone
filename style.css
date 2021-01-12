@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box; /* se acomoda a la pantalla */
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.header {
+  width: 100%;
+  height: 20%;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.6rem;
+  padding-top: 1%;
+  padding-right: 2%;
+}
+.object{
+    padding-right: 0.5%;
+}
+.menu {
+  height: 3rem;
+  width: 3rem;
+}
+.perfil {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 2rem 2rem 2rem 2rem;
+}
